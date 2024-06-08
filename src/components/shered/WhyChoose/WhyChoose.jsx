@@ -32,19 +32,18 @@ const WhyChoose = () => {
                   </div>
                   <div className="flex-grow pl-3">
                     <h6 className="font-bold text-md uppercase text-[#F9A825]">
-                      Kenzie Edgar.
+                      John Doe
                     </h6>
                   </div>
                 </div>
-                <div className="">
+                <div className="w-full h-full lg:h-[150px]">
                   <p className="text-sm leading-tight">
                     <span className="text-xl leading-none italic font-bold text-gray-400 mr-1">
                       &quot;
                     </span>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Quos sunt ratione dolor exercitationem minima quas itaque
-                    saepe quasi architecto vel! Accusantium, vero sint
-                    recusandae cum tempora nemo commodi soluta deleniti.
+                    Pipe Tek truly transformed our business with their custom
+                    software solutions. Their dedication, expertise, and timely
+                    delivery exceeded our expectations. Highly recommended!
                     <span className="text-lg leading-none italic font-bold text-gray-400 ml-1">
                       &quot;
                     </span>
@@ -60,19 +59,19 @@ const WhyChoose = () => {
                   </div>
                   <div className="flex-grow pl-3">
                     <h6 className="font-bold text-md uppercase text-[#F9A825]">
-                      Kenzie Edgar.
+                      Jane Smith
                     </h6>
                   </div>
                 </div>
-                <div className="">
+                <div className="w-full h-full lg:h-[150px]">
                   <p className="text-sm leading-tight">
                     <span className="text-xl leading-none italic font-bold text-gray-400 mr-1">
                       &quot;
                     </span>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Quos sunt ratione dolor exercitationem minima quas itaque
-                    saepe quasi architecto vel! Accusantium, vero sint
-                    recusandae cum tempora nemo commodi soluta deleniti.
+                    Working with Pipe Tek was a game-changer for us. Their
+                    team&apos;s professionalism and attention to detail ensured
+                    a seamless development process, resulting in a software
+                    solution that perfectly met our needs.
                     <span className="text-lg leading-none italic font-bold text-gray-400 ml-1">
                       &quot;
                     </span>
@@ -88,19 +87,20 @@ const WhyChoose = () => {
                   </div>
                   <div className="flex-grow pl-3">
                     <h6 className="font-bold text-md uppercase text-[#F9A825]">
-                      Kenzie Edgar.
+                      Michael Johnson
                     </h6>
                   </div>
                 </div>
-                <div className="">
+                <div className="w-full h-full lg:h-[150px]">
                   <p className="text-sm leading-tight">
                     <span className="text-xl leading-none italic font-bold text-gray-400 mr-1">
                       &quot;
                     </span>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Quos sunt ratione dolor exercitationem minima quas itaque
-                    saepe quasi architecto vel! Accusantium, vero sint
-                    recusandae cum tempora nemo commodi soluta deleniti.
+                    I can&apos;t thank Pipe Tek enough for their outstanding
+                    work. From start to finish, they demonstrated a deep
+                    understanding of our requirements and delivered a product
+                    that has significantly improved our efficiency. We look
+                    forward to future collaborations!
                     <span className="text-lg leading-none italic font-bold text-gray-400 ml-1">
                       &quot;
                     </span>
