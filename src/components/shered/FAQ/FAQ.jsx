@@ -36,7 +36,7 @@ const FAQ = () => {
 
   return (
     <section id="aboutUs" className="pb-[50px]">
-      <Title title={"FAQs"} backgroundText={"FAQs"} />
+      <Title title={"FAQs"} />
       <Container>
         <Accordion open={open === 1} icon={<Icon id={1} open={open} />}>
           <AccordionHeader onClick={() => handleOpen(1)}>

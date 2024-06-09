@@ -1,4 +1,4 @@
-import { Box, Button, Container, Grid, Stack, Typography } from "@mui/material";
+import { Box, Container, Grid, Stack, Typography } from "@mui/material";
 import serviceImage from "../../../assets/images/services.svg";
 import Title from "../../ui/Title/Title";
 
@@ -6,9 +6,9 @@ const Services = () => {
   return (
     <section
       id="services"
-      style={{ paddingBottom: "50px", background: "#eef2f6" }}
+      style={{ paddingBottom: "50px", background: "#F9A825", color: "#111" }}
     >
-      <Title title={"Services"} backgroundText={"Services"} />
+      <Title title={"Services"} />
       <Container>
         <Stack
           direction={"column"}
@@ -16,7 +16,7 @@ const Services = () => {
           alignItems={"center"}
           mb={5}
         >
-          <p className="font-popins text-3xl">
+          <p className="font-popins text-3xl text-center">
             A streamlined list of the core software development services offered
           </p>
         </Stack>
@@ -69,7 +69,7 @@ const Services = () => {
                   <Typography
                     component={"p"}
                     fontSize={{ xs: "18px", md: "22px" }}
-                    style={{ fontWeight: "600", color: "#43A047" }}
+                    style={{ fontWeight: "600" }}
                   >
                     Web Development
                   </Typography>
@@ -100,7 +100,7 @@ const Services = () => {
                   component={"p"}
                   fontSize={{ xs: "18px", md: "22px" }}
                 >
-                  <div style={{ fontWeight: "600", color: "#43A047" }}>
+                  <div style={{ fontWeight: "600" }}>
                     Mobile App Development
                   </div>
                   <div style={{ fontSize: "16px" }}>
@@ -130,7 +130,7 @@ const Services = () => {
                   component={"p"}
                   fontSize={{ xs: "18px", md: "22px" }}
                 >
-                  <div style={{ fontWeight: "600", color: "#43A047" }}>
+                  <div style={{ fontWeight: "600" }}>
                     Enterprise Software Solutions
                   </div>
                   <div style={{ fontSize: "16px" }}>
@@ -141,19 +141,6 @@ const Services = () => {
             </Stack>
           </Grid>
         </Grid>
-        <Stack
-          direction={"row"}
-          justifyContent={"center"}
-          alignItems={"center"}
-          my={5}
-        >
-          <Button
-            sx={{ px: 5, py: 1, textTransform: "capitalize" }}
-            size="large"
-          >
-            Learn More
-          </Button>
-        </Stack>
       </Container>
     </section>
   );

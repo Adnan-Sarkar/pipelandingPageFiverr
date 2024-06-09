@@ -1,12 +1,12 @@
 import { Box, Container, Grid, Stack } from "@mui/material";
-import AboutImg from "../../../assets/images/hero_bg.jpg";
+import AboutImg from "../../../assets/images/hero_bg.png";
 import Title from "../../ui/Title/Title";
 
 const AboutUs = () => {
   return (
     <>
       <section id="aboutUs" className="pb-[50px]">
-        <Title title={"About Us"} backgroundText={"About Us"} />
+        <Title title={"About Us"} />
         <div className="lg:my-[60px]"></div>
         <Container>
           <Grid container spacing={6}>
@@ -31,7 +31,7 @@ const AboutUs = () => {
                 spacing={4}
               >
                 <div className="p-2">
-                  <h4 className="text-4xl font-semibold text-[#F9A825]">
+                  <h4 className="text-4xl font-semibold text-[#111]">
                     Our Mission
                   </h4>
                   <p className="text-lg mt-5">

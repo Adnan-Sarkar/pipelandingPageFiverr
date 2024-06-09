@@ -8,8 +8,11 @@ import Title from "../../ui/Title/Title";
 
 const Benefits = () => {
   return (
-    <section style={{ paddingBottom: "50px" }}>
-      <Title title={"Benefits"} backgroundText={"Benefits"} />
+    <section
+      style={{ paddingBottom: "50px", color: "111" }}
+      className="bg-[#F9A825]"
+    >
+      <Title title={"Benefits"} />
       <Container>
         <Grid
           container
@@ -20,13 +23,11 @@ const Benefits = () => {
           {/* benefit 1 */}
           <Grid item xs={12} md={4}>
             <Stack direction={"row"} gap={3}>
-              <Box width={"70px"}>
-                <img src={benefits1} alt="icon" style={{ width: "70px" }} />
+              <Box width={"100px"}>
+                <img src={benefits1} alt="icon" style={{ width: "100px" }} />
               </Box>
               <Box>
-                <Typography variant="h6" color={"#F9A825"}>
-                  Effortless Efficiency
-                </Typography>
+                <Typography variant="h6">Effortless Efficiency</Typography>
                 <Typography component={"p"}>
                   We streamline your operations with custom software designed to
                   fit your unique business needs.
@@ -38,13 +39,11 @@ const Benefits = () => {
           {/* benefit 2 */}
           <Grid item xs={12} md={4}>
             <Stack direction={"row"} gap={3}>
-              <Box width={"70px"}>
-                <img src={benefits2} alt="icon" style={{ width: "70px" }} />
+              <Box width={"100px"}>
+                <img src={benefits2} alt="icon" style={{ width: "100px" }} />
               </Box>
               <Box>
-                <Typography variant="h6" color={"#F9A825"}>
-                  Expert Craftsmanship
-                </Typography>
+                <Typography variant="h6">Expert Craftsmanship</Typography>
                 <Typography component={"p"}>
                   Our experienced developers leverage their proven track record
                   to craft reliable and scalable solutions.
@@ -56,13 +55,11 @@ const Benefits = () => {
           {/* benefit 3 */}
           <Grid item xs={12} md={4}>
             <Stack direction={"row"} gap={3}>
-              <Box width={"70px"}>
-                <img src={benefits3} alt="icon" style={{ width: "70px" }} />
+              <Box width={"100px"}>
+                <img src={benefits3} alt="icon" style={{ width: "100px" }} />
               </Box>
               <Box>
-                <Typography variant="h6" color={"#F9A825"}>
-                  On Time, On Budget
-                </Typography>
+                <Typography variant="h6">On Time, On Budget</Typography>
                 <Typography component={"p"}>
                   We prioritize efficient development processes to deliver your
                   software solutions within your timeframe and budget.
@@ -74,13 +71,11 @@ const Benefits = () => {
           {/* benefit 4 */}
           <Grid item xs={12} md={4}>
             <Stack direction={"row"} gap={3}>
-              <Box width={"70px"}>
-                <img src={benefits4} alt="icon" style={{ width: "70px" }} />
+              <Box width={"100px"}>
+                <img src={benefits4} alt="icon" style={{ width: "100px" }} />
               </Box>
               <Box>
-                <Typography variant="h6" color={"#F9A825"}>
-                  On Time, On Budget
-                </Typography>
+                <Typography variant="h6">On Time, On Budget</Typography>
                 <Typography component={"p"}>
                   Our software is built to scale, adapting and expanding
                   alongside your growing business.
@@ -92,13 +87,11 @@ const Benefits = () => {
           {/* benefit 5 */}
           <Grid item xs={12} md={4}>
             <Stack direction={"row"} gap={3}>
-              <Box width={"70px"}>
-                <img src={benefits5} alt="icon" style={{ width: "70px" }} />
+              <Box width={"100px"}>
+                <img src={benefits5} alt="icon" style={{ width: "100px" }} />
               </Box>
               <Box>
-                <Typography variant="h6" color={"#F9A825"}>
-                  Seamless Support
-                </Typography>
+                <Typography variant="h6">Seamless Support</Typography>
                 <Typography component={"p"}>
                   We offer ongoing support and maintenance to ensure your
                   software runs smoothly, maximizing its value.

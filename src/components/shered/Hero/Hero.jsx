@@ -1,5 +1,5 @@
-import { Button, Container, Stack, Typography } from "@mui/material";
-import heroBgImage from "../../../assets/images/hero_bg.jpg";
+import { Container, Stack, Typography } from "@mui/material";
+import heroBgImage from "../../../assets/images/hero_bg.png";
 
 const Hero = () => {
   return (
@@ -42,14 +42,6 @@ const Hero = () => {
               and innovative custom software solutions that empower your
               business to achieve its full potential.
             </Typography>
-            <Button
-              sx={{
-                px: 8,
-                py: 2,
-              }}
-            >
-              Get Started
-            </Button>
           </Stack>
         </Container>
       </section>
